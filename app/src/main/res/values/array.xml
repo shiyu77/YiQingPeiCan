@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item>云天苑A座</item>
+        <item>云天苑B座</item>
+        <item>云天苑D座</item>
+        <item>云天苑E座</item>
+        <item>云天苑F座</item>
+        <item>星天苑A座</item>
+        <item>星天苑B座</item>
+        <item>星天苑C座</item>
+        <item>星天苑D座</item>
+        <item>星天苑E座</item>
+        <item>星天苑F座</item>
+        <item>星天苑G座</item>
+    </string-array>
+    <string-array name="meal_type">
+        <item>早餐</item>
+        <item>午餐</item>
+        <item>晚餐</item>
+    </string-array>
+    <string-array name="area">
+        <item>单号区</item>
+        <item>双号区</item>
+    </string-array>
+    <string-array name="floor">
+        <item>一楼</item>
+        <item>二楼</item>
+        <item>三楼</item>
+        <item>四楼</item>
+        <item>五楼</item>
+        <item>六楼</item>
+    </string-array>
+</resources>

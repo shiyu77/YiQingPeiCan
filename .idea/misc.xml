@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/drawable/btn_login.xml" value="0.2111111111111111" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/drawable/lay_location.xml" value="0.18425925925925926" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/activity_login.xml" value="0.17481884057971014" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/activity_main.xml" value="0.17481884057971014" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/activity_sign_up.xml" value="0.1" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/activty_admin.xml" value="0.23097826086956522" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/delet_user.xml" value="0.22552083333333334" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/item_order.xml" value="0.22418478260869565" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/item_order_admin.xml" value="0.23097826086956522" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/order_form.xml" value="0.22418478260869565" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/popup_pick.xml" value="0.23097826086956522" />
+        <entry key="..\:/APP/DevhubXgd/app/src/main/res/layout/select.xml" value="0.10840932117527863" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/back"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back"/>
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="志愿者待送餐列表"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_weight="1.5"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:id="@+id/area"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:id="@+id/type"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/floor"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:id="@+id/search"
+            android:background="#9781FF02"
+            android:layout_width="0dp"
+            android:layout_height="40dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:layout_height="match_parent"
+                android:text="查询"
+                android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#C4B8B8B8"
+        android:id="@+id/lay_total"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/num_normal"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center" />
+
+        <TextView
+            android:textColor="@android:color/black"
+            android:id="@+id/num_special"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center" />
+    </LinearLayout>
+    <com.yalantis.phoenix.PullToRefreshView
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:scrollbars="none"
+            android:id="@+id/list_view"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.yalantis.phoenix.PullToRefreshView>
+</LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/delete"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@android:color/holo_blue_bright"
+        android:layout_width="100dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="删除用户"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
